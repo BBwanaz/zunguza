@@ -1,0 +1,2 @@
+# zunguza
+Solana NFT Generator
