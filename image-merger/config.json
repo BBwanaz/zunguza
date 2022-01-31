@@ -1,0 +1,19 @@
+{   
+    "nft_name": "Zunguza",
+    "description": "Some generic NFT description of your choice",
+    "image_url": "Probably some arweave url",
+    "animation_url": "Another arweave url",
+    "external_url": "Your s#*tty website's url",
+    "nft_category": "video",
+    "nft_count": 100,
+    "layers": {
+        "background": ["black"],
+        "bottom_lid": ["high", "mid", "low"],
+        "eyeball": ["white", "red"],
+        "eye_color": ["yellow", "sky blue", "green", "purple", "blue", "red"],
+        "goo": ["greed"],
+        "iris": ["small", "large", "medium"],
+        "shine": ["common"],
+        "top_lid": ["low", "high", "mid"]
+    }
+}
