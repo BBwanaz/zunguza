@@ -4,6 +4,7 @@ from PIL import Image
 import json
 import copy
 from operator import mod
+import numpy as np
 
 
 class Process():
@@ -44,9 +45,8 @@ class Process():
         self.generate_multiple_nfts(combinations)
 
     def generate_combination(self):
-        attr = random.sample(range(0, max(self.layer_attributes_len)), len(self.layers))
+        attr = list(np.random.randint(low = 0,high=max(self.layer_attributes_len),size=len(self.layers)))
         res = list(map(mod, attr, self.layer_attributes_len))
-
         return res
 
     def calculate_max(self):

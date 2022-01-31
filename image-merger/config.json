@@ -5,7 +5,7 @@
     "animation_url": "Another arweave url",
     "external_url": "Your s#*tty website's url",
     "nft_category": "video",
-    "nft_count": 100,
+    "nft_count": 10,
     "layers": {
         "background": ["black"],
         "bottom_lid": ["high", "mid", "low"],
